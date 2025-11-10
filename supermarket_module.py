@@ -59,6 +59,7 @@ def creat_products_and_validate(id_number ,name , brand , quantity , price , exp
     return product
 
 def calculate_total(product_list):
+    # If there is no product available show this message
     if not product_list:
         raise ValueError("No Products", "There are no products saved.")
 

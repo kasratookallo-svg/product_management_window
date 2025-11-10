@@ -25,7 +25,7 @@ def save():
     except Exception as e:
         messagebox.showerror("Error", f"Something went wrong : {e}")
 
-# total_price action
+# total_price function attached to supermarket_module
 def total_price():
     try:
         messagebox.showinfo("Total Price", f"Total : {calculate_total(product_list)}")
