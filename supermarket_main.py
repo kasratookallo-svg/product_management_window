@@ -1,3 +1,6 @@
+#Supermarket Application with window
+#Made by Kasra Tookallo in 2025
+
 from datetime import date, datetime
 from tkinter import *
 from tkinter import messagebox
